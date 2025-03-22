@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color: hsl(185, 75%, 39%);
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+	background-size: auto, auto;
+	background-repeat: no-repeat, no-repeat;
+    /*set position to top left and bottom right*/
+	background-position: calc(50% + -27rem) calc(50% + -27rem), calc(50% - -28rem) calc(50% - -32.6rem);
+    
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:white ;
+    position: relative;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.detail{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 59%);
+}
+h3{
+    font-size: 1.25rem;
+}
+.name p{
+    margin-top: 2.5px;
+}
+p{
+    color: hsl(0, 0%, 59%);
+    font-weight: 500;
+}
+.cardimg{
+    width: 100%;
+    position: block;
+}
+.profile {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 32.5%;
+    top: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: white;
+}
+.name {
+    margin-top: 60px; /* Moves text down to avoid overlapping */
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+ul{
+    margin-top: 1rem;
+    list-style:none;
+    display: flex;
+    justify-content: space-around ;
+    margin-bottom: 1.5rem;
+}
+li{
+    font-weight: 700;
+}
+hr{
+    border: 1px solid hsl(0, 0%, 59%,0.2);
+    margin-top: 1rem;
+}
